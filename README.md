@@ -1,3 +1,11 @@
+# VideoMindAI
+
+企业培训视频检索与问答场景的二次开发与验证。项目介绍、实测结果与已知限制见 [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)。
+
+基于 [DOVideo-AI](https://github.com/Xiaoc7r/DOVideo-AI) 开发，保留原项目 MIT 许可证及下方文档。
+
+---
+
 <div align="center">
   <h2>VideoMind AI</h2>
   
