@@ -33,27 +33,33 @@
 
 ## 项目预览
 
-**登录与注册**
+以下为2026年11月25日本地服务的实际界面截图。资料库来自实际上传的测试视频；分析与链路详情展示服务保存的实际运行结果。
 
-![VideoMind AI 登录与注册](docs/images/login-register.png)
+**上传入口**
 
-**视频工作台**
+![本地运行：上传入口](docs/images/local-home.png)
 
-![VideoMind AI 视频工作台](docs/images/video-library.png)
+**实际视频资料库**
 
-**Agent 目标输入**
+![本地运行：测试视频资料库](docs/images/local-library.png)
 
-![VideoMind AI Agent 目标输入](docs/images/agent-compose.png)
+**语音转写结果**
 
-**Agent 分析结果**
+![本地运行：实际转写结果](docs/images/local-transcript.png)
 
-<img width="2886" height="1656" alt="b89cf519f7189cf823507d5c17b0d88d" src="https://github.com/user-attachments/assets/8bfeed0e-28df-4527-86bf-e549f5516dcc" />
+**分析模式与目标输入**
 
-<img width="1776" height="1708" alt="a52abccc6447591c6f9a66ad948c5709" src="https://github.com/user-attachments/assets/9e04ecca-a2a5-4d59-89d7-8f4329858070" />
+![本地运行：分析目标](docs/images/local-compose.png)
 
+**分析结论与时间戳引用**
 
+![本地运行：实际分析结果](docs/images/local-analysis.png)
 
-用户完成登录后，可以上传视频并在工作台管理解析任务；选择视频并输入分析目标后，可以手动选择分析模式，也可以交给 Agent 自动判断。工作台会展示结构化结论、时间戳证据、执行计划、阶段轨迹与质量评估，并支持基于同一视频继续追问。
+**计划、阶段耗时与审核状态**
+
+![本地运行：实际链路详情](docs/images/local-trace.png)
+
+链路详情中的引用匹配指标针对当前样例；整体评测结果与已知限制见项目介绍。
 
 ## 核心功能
 
