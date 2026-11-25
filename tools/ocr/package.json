@@ -1,0 +1,14 @@
+{
+  "name": "dovideo-local-ocr",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node prepare-ocr.js"
+  },
+  "dependencies": {
+    "@tesseract.js-data/chi_sim": "1.0.0",
+    "@tesseract.js-data/eng": "1.0.0",
+    "tesseract.js": "7.0.0"
+  }
+}
